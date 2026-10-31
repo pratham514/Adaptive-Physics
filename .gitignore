@@ -1,0 +1,30 @@
+# Local secrets and environment files (keep the example templates)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+**/.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.log
+
+# React / Vite
+**/node_modules/
+**/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
